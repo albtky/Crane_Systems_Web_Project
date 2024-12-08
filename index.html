@@ -1,0 +1,1274 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Sırmaksan Vinç İmalat</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Gp
+  * Template URL: https://bootstrapmade.com/gp-free-multipurpose-html-bootstrap-template/
+  * Updated: Aug 15 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  <style>
+    /* Slider başlıklarının hizalanması ve sabit yükseklik ayarı */
+    .owl-carousel .item h5 {
+      text-align: center;
+      height: 50px;
+      /* Sabit bir yükseklik belirler */
+      display: flex;
+      justify-content: center;
+      /* Yatayda ortalar */
+      align-items: center;
+      /* Dikeyde ortalar */
+      margin-top: 10px;
+      /* Üstten biraz boşluk bırakır */
+      font-size: 16px;
+      /* Yazı boyutu */
+      font-weight: bold;
+      /* Yazı kalınlığı */
+      color: #333;
+      /* Yazı rengi */
+    }
+
+    /* Resimler için sabit boyut ve hizalama */
+    .owl-carousel .item img {
+      width: 100%;
+      /* Genişliği kapsar */
+      height: 200px;
+      /* Sabit bir yükseklik belirler */
+      object-fit: cover;
+      /* Görüntüyü kutuya sığacak şekilde keser */
+      border-radius: 8px;
+      /* Hafif yuvarlak köşeler */
+    }
+
+    /* Kaydırma butonları boyutu ve estetik görünüm */
+    .owl-carousel .owl-nav button {
+      width: 50px;
+      /* Buton genişliği */
+      height: 50px;
+      /* Buton yüksekliği */
+      border-radius: 50%;
+      /* Yuvarlak butonlar */
+      background-color: #333;
+      /* Arka plan rengi */
+      color: white;
+      /* İkon rengi */
+      border: none;
+      /* Çerçeve kaldırılır */
+      display: flex;
+      justify-content: center;
+      /* İkonu ortalar */
+      align-items: center;
+      /* İkonu ortalar */
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+      /* Hafif gölge */
+      transition: all 0.3s ease;
+      /* Hover animasyonu için geçiş efekti */
+    }
+
+    .owl-carousel .owl-nav button:hover {
+      background-color: #4CAF50;
+      /* Hover durumunda arka plan rengi */
+      transform: scale(1.1);
+      /* Hover sırasında hafif büyütme efekti */
+    }
+
+    /* İkon boyutu */
+    .owl-carousel .owl-nav button span {
+      font-size: 24px;
+      /* İkon boyutunu artırır */
+    }
+  </style>
+
+
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-lg-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/crane-logo.png" alt="Vinç İmalatı"> -->
+        <h1 class="sitename">Sırmaksan Vinç İmalatı</h1>
+      </a>
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html#hero" class="active">Ana Sayfa</a></li>
+          <li><a href="hakkımızda.html">Hakkımızda</a></li>
+          <!-- Hizmetler Menüsü -->
+          <li class="dropdown">
+            <a href="#services">Hizmetler</a>
+            <ul class="dropdown-menu">
+              <li><a href="ozel.html">Özel Vinç İmalatı</a></li>
+              <li><a href="endustriyel.html">Endüstriyel Çözümler</a></li>
+              <li><a href="kurulum.html">Kurulum ve Montaj</a></li>
+              <li><a href="bakim.html">Bakım ve Onarım</a></li>
+              <li><a href="egitim.html">Operatör Eğitimi</a></li>
+              <li><a href="destek.html">7/24 Teknik Destek</a></li>
+            </ul>
+          </li>
+          <!-- Ürünlerimiz Menüsü -->
+          <li class="dropdown">
+            <a href="#products">Ürünlerimiz</a>
+            <ul class="dropdown-menu">
+              <li><a href="mobil.html">Mobil Vinç</a></li>
+              <li><a href="kule.html">Kule Vinç</a></li>
+              <li><a href="ozel.html">Özel Proje Vinçler</a></li>
+              <li><a href="portal.html">Portal Vinç</a></li>
+            </ul>
+          </li>
+          <li><a href="index.html#portfolio">Galeri</a></li>
+          <li><a href="index.html#team">Ekibimiz</a></li>
+          <li><a href="index.html#contact">İletişim</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+
+      <a class="btn-getstarted" href="#contact">Teklif Al</a>
+
+    </div>
+  </header>
+
+
+  <main class="main">
+
+    <!-- Kahraman Bölümü -->
+    <section id="hero" class="hero section dark-background">
+
+
+      <div class="container">
+
+        <div class="row justify-content-center text-center" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-xl-6 col-lg-8">
+            <h2>Yüklerinizi Güvenle Kaldıran Güçlü Vinç Sistemleri<span>.</span></h2>
+            <p>En zorlu yüklerin üstesinden gelmek için tasarlanmış yenilikçi vinç çözümleri sunuyoruz.</p>
+          </div>
+        </div>
+
+        <div class="row gy-4 mt-5 justify-content-center" data-aos="fade-up" data-aos-delay="200">
+          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="icon-box">
+              <i class="bi bi-binoculars"></i>
+              <h3><a href="">Güvenilir Tasarım</a></h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="icon-box">
+              <i class="bi bi-bullseye"></i>
+              <h3><a href="">Yüksek Performans</a></h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="500">
+            <div class="icon-box">
+              <i class="bi bi-fullscreen-exit"></i>
+              <h3><a href="">Modüler Sistemler</a></h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="600">
+            <div class="icon-box">
+              <i class="bi bi-card-list"></i>
+              <h3><a href="">Müşteriye Özel Çözümler</a></h3>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-4" data-aos="fade-up" data-aos-delay="700">
+            <div class="icon-box">
+              <i class="bi bi-gem"></i>
+              <h3><a href="">Uzun Ömürlü Kullanım</a></h3>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- Hakkımızda Bölümü -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-lg-6 order-1 order-lg-2">
+            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-6 order-2 order-lg-1 content">
+            <h3>Vinç İmalatında Lideriz</h3>
+            <p class="fst-italic">
+              Modern teknolojilerle desteklenmiş, yüksek kalite standartlarına sahip vinç çözümleri sunuyoruz. Güvenilir
+              ve
+              dayanıklı sistemlerimizle sektörde öncüyüz.
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-all"></i> <span>İhtiyaca özel, dayanıklı ve kaliteli vinç üretimi.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Müşterilerimizin güvenini ve memnuniyetini ön planda
+                  tutuyoruz.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Güçlü mühendislik ekibimizle yenilikçi çözümler
+                  sunuyoruz.</span>
+              </li>
+            </ul>
+            <p>
+              Vinç imalatı sektöründe yılların tecrübesiyle, her projeye özel çözümler sunuyoruz. Ürünlerimiz, hem
+              performans hem de güvenlik açısından uluslararası standartları karşılamaktadır.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Hakkımızda Bölümü -->
+
+    <!-- Müşteriler Bölümü -->
+    <section id="clients" class="clients section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 600,
+          "autoplay": {
+            "delay": 5000
+          },
+          "slidesPerView": "auto",
+          "pagination": {
+            "el": ".swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+          },
+          "breakpoints": {
+            "320": {
+              "slidesPerView": 2,
+              "spaceBetween": 40
+            },
+            "480": {
+              "slidesPerView": 3,
+              "spaceBetween": 60
+            },
+            "640": {
+              "slidesPerView": 4,
+              "spaceBetween": 80
+            },
+            "992": {
+              "slidesPerView": 6,
+              "spaceBetween": 120
+            }
+          }
+        }
+      </script>
+          <div class="swiper-wrapper align-items-center">
+            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt="Müşteri 1">
+            </div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt="Müşteri 2">
+            </div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt="Müşteri 3">
+            </div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt="Müşteri 4">
+            </div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt="Müşteri 5">
+            </div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt="Müşteri 6">
+            </div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt="Müşteri 7">
+            </div>
+            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt="Müşteri 8">
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Müşteriler Bölümü -->
+
+
+    <!-- Özellikler Bölümü -->
+    <section id="features" class="features section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+          <div class="features-image col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/features-bg.jpg" alt="">
+          </div>
+          <div class="col-lg-6">
+
+            <div class="features-item d-flex ps-0 ps-lg-3 pt-4 pt-lg-0" data-aos="fade-up" data-aos-delay="200">
+              <i class="bi bi-tools flex-shrink-0"></i>
+              <div>
+                <h4>Yüksek Teknoloji</h4>
+                <p>Vinçlerimiz en son teknolojiyle üretilmiş olup maksimum performans ve güvenlik sağlar.</p>
+              </div>
+            </div><!-- Özellikler Maddesi -->
+
+            <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-shield-check flex-shrink-0"></i>
+              <div>
+                <h4>Dayanıklılık</h4>
+                <p>Her türlü zorlu çalışma koşullarına dayanabilecek şekilde tasarlanmıştır.</p>
+              </div>
+            </div><!-- Özellikler Maddesi -->
+
+            <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-lightbulb flex-shrink-0"></i>
+              <div>
+                <h4>Yenilikçi Çözümler</h4>
+                <p>Mühendislik ekibimiz tarafından geliştirilen yenilikçi özelliklerle sektörde fark yaratıyoruz.</p>
+              </div>
+            </div><!-- Özellikler Maddesi -->
+
+            <div class="features-item d-flex mt-5 ps-0 ps-lg-3" data-aos="fade-up" data-aos-delay="500">
+              <i class="bi bi-award flex-shrink-0"></i>
+              <div>
+                <h4>Kalite Güvencesi</h4>
+                <p>Tüm ürünlerimiz uluslararası kalite standartlarına uygun olarak üretilmektedir.</p>
+              </div>
+            </div><!-- Özellikler Maddesi -->
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Özellikler Bölümü -->
+
+
+
+    <!-- Hizmetler Bölümü -->
+    <section id="services" class="services section">
+
+      <!-- Bölüm Başlığı -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Hizmetlerimiz</h2>
+        <p>Vinç İmalat ve Destek Hizmetlerimizi Keşfedin</p>
+      </div><!-- Bölüm Başlığı Sonu -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-tools"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Özel Vinç İmalatı</h3>
+              </a>
+              <p>Müşterilerimizin ihtiyacına göre özelleştirilmiş vinç tasarımı ve üretimi gerçekleştiriyoruz.</p>
+            </div>
+          </div><!-- Hizmet Maddesi Sonu -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-building"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Endüstriyel Çözümler</h3>
+              </a>
+              <p>Fabrikalar, şantiyeler ve ağır sanayi için güçlü ve dayanıklı vinç sistemleri sunuyoruz.</p>
+            </div>
+          </div><!-- Hizmet Maddesi Sonu -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-check-circle"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Kurulum ve Montaj</h3>
+              </a>
+              <p>Vinçlerinizi sorunsuz bir şekilde kuruyor ve montaj hizmetlerini sağlıyoruz.</p>
+            </div>
+          </div><!-- Hizmet Maddesi Sonu -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-shield-check"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Bakım ve Onarım</h3>
+              </a>
+              <p>Vinçlerinizin uzun ömürlü çalışmasını sağlamak için düzenli bakım ve onarım hizmetleri sunuyoruz.</p>
+            </div>
+          </div><!-- Hizmet Maddesi Sonu -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-people"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>Operatör Eğitimi</h3>
+              </a>
+              <p>Vinç operatörlerine profesyonel kullanım eğitimi sağlayarak iş güvenliğini artırıyoruz.</p>
+            </div>
+          </div><!-- Hizmet Maddesi Sonu -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+            <div class="service-item position-relative">
+              <div class="icon">
+                <i class="bi bi-phone"></i>
+              </div>
+              <a href="service-details.html" class="stretched-link">
+                <h3>7/24 Teknik Destek</h3>
+              </a>
+              <p>Acil durumlarda hızlı çözüm sağlamak için her zaman yanınızdayız.</p>
+            </div>
+          </div><!-- Hizmet Maddesi Sonu -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Hizmetler Bölümü -->
+
+    <!--Grafikler Bölümü-->
+    <!-- Daire Grafikleri Bölümü -->
+    <section id="statistics-charts" class="statistics section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <!-- Müşteri Sektörü Dağılımı -->
+          <div class="col-md-4">
+            <h3 class="text-center">Müşteri Sektörü Dağılımı</h3>
+            <canvas id="customerSectorChart"></canvas>
+          </div>
+          <!-- Satış Geliri Dağılımı -->
+          <div class="col-md-4">
+            <h3 class="text-center">Satış Geliri Dağılımı</h3>
+            <canvas id="salesRevenueChart"></canvas>
+          </div>
+          <!-- Bölgesel Satış Oranları -->
+          <div class="col-md-4">
+            <h3 class="text-center">Bölgesel Satış Oranları</h3>
+            <canvas id="regionalSalesChart"></canvas>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Chart.js Kütüphanesi -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script>
+      // Müşteri Sektörü Dağılımı Verileri
+      const customerSectorCtx = document.getElementById('customerSectorChart').getContext('2d');
+      new Chart(customerSectorCtx, {
+        type: 'pie',
+        data: {
+          labels: ['İnşaat', 'Lojistik', 'Enerji', 'Diğer'],
+          datasets: [{
+            data: [50, 30, 15, 5], // Yüzdelik Veriler
+            backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0'],
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: {
+              position: 'bottom'
+            }
+          }
+        }
+      });
+
+      // Satış Geliri Dağılımı Verileri
+      const salesRevenueCtx = document.getElementById('salesRevenueChart').getContext('2d');
+      new Chart(salesRevenueCtx, {
+        type: 'pie',
+        data: {
+          labels: ['Ürün Satışı', 'Bakım ve Servis', 'Eğitim ve Danışmanlık', 'Diğer Hizmetler'],
+          datasets: [{
+            data: [60, 25, 10, 5], // Yüzdelik Veriler
+            backgroundColor: ['#4BC0C0', '#FFCE56', '#FF6384', '#36A2EB'],
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: {
+              position: 'bottom'
+            }
+          }
+        }
+      });
+
+      // Bölgesel Satış Oranları Verileri
+      const regionalSalesCtx = document.getElementById('regionalSalesChart').getContext('2d');
+      new Chart(regionalSalesCtx, {
+        type: 'pie',
+        data: {
+          labels: ['Marmara', 'Ege', 'Karadeniz', 'Doğu Anadolu', 'Güneydoğu Anadolu'],
+          datasets: [{
+            data: [40, 25, 15, 10, 10], // Bölgesel Satış Verileri
+            backgroundColor: ['#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF'],
+          }]
+        },
+        options: {
+          responsive: true,
+          plugins: {
+            legend: {
+              position: 'bottom'
+            }
+          }
+        }
+      });
+    </script>
+
+    <!--/Grafikler Bölümü-->
+
+    <!-- Harekete Geçirme Bölümü -->
+    <section id="call-to-action" class="call-to-action section dark-background">
+
+      <img src="assets/img/cta-bg.jpg" alt="">
+
+      <div class="container">
+        <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+              <h3>Projelerinizi Güçlendirin</h3>
+              <p>
+                Üstün performanslı vinçlerimizle işlerinizi daha hızlı, güvenli ve verimli bir şekilde yapın.
+                Size özel çözümlerimizle sektörde bir adım önde olun.
+              </p>
+              <a class="cta-btn" href="#contact">Bize Ulaşın</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Harekete Geçirme Bölümü -->
+
+
+
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Bölüm Başlığı -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Ürün Portföyümüz</h2>
+        <p>Vinç çeşitlerimizi inceleyin ve projeleriniz için en uygun çözümleri keşfedin.</p>
+      </div><!-- Bölüm Başlığı Sonu -->
+
+      <div class="container">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+          <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+            <li data-filter="*" class="filter-active">Tümü</li>
+            <li data-filter=".filter-heavy-duty">Ağır Hizmet Vinçleri</li>
+            <li data-filter=".filter-industrial">Endüstriyel Vinçler</li>
+            <li data-filter=".filter-custom">Özel Tasarımlar</li>
+          </ul><!-- Portföy Filtreleri Sonu -->
+
+          <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+            <!-- Ağır Hizmet Vinçleri -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-heavy-duty">
+              <img src="kule.png" class="img-fluid" alt="Kule Vinç">
+              <div class="portfolio-info">
+                <h4>Kule Vinç</h4>
+                <p>Ağır yüklerin kaldırılması için tasarlanmıştır.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-heavy-duty">
+              <img src="kule2.png" class="img-fluid" alt="Kule Vinç 2">
+              <div class="portfolio-info">
+                <h4>Kule Vinç 2</h4>
+                <p>Güçlü ve dayanıklı tasarım.</p>
+              </div>
+            </div>
+
+            <!-- Endüstriyel Vinçler -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-industrial">
+              <img src="mobil.png" class="img-fluid" alt="Mobil Vinç">
+              <div class="portfolio-info">
+                <h4>Mobil Vinç</h4>
+                <p>Esnek kullanım ve taşıma kolaylığı sunar.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-industrial">
+              <img src="mobil2.png" class="img-fluid" alt="Mobil Vinç 2">
+              <div class="portfolio-info">
+                <h4>Mobil Vinç 2</h4>
+                <p>Endüstriyel alanlar için ideal çözümler.</p>
+              </div>
+            </div>
+
+            <!-- Özel Tasarımlar -->
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-custom">
+              <img src="portal.png" class="img-fluid" alt="Portal Vinç">
+              <div class="portfolio-info">
+                <h4>Portal Vinç</h4>
+                <p>Projelerinize özel tasarlanmıştır.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-custom">
+              <img src="portal3.png" class="img-fluid" alt="Portal Vinç 2">
+              <div class="portfolio-info">
+                <h4>Portal Vinç 2</h4>
+                <p>Kullanıcı ihtiyaçlarına göre özelleştirilebilir.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-custom">
+              <img src="proje.png" class="img-fluid" alt="Proje Vinç">
+              <div class="portfolio-info">
+                <h4>Proje Vinç</h4>
+                <p>Özel projeler için benzersiz tasarım.</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-custom">
+              <img src="proje2.png" class="img-fluid" alt="Proje Vinç 2">
+              <div class="portfolio-info">
+                <h4>Proje Vinç 2</h4>
+                <p>En özel ihtiyaçlarınız için çözümler.</p>
+              </div>
+            </div>
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Section -->
+
+    <!-- İstatistikler Bölümü -->
+    <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 align-items-center justify-content-between">
+
+          <div class="col-lg-5">
+            <img src="assets/img/stats-img.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="col-lg-6">
+
+            <h3 class="fw-bold fs-2 mb-3">Kalite ve Güvenle Yüksek Başarı</h3>
+            <p>
+              Firmamız, vinç üretiminde yenilikçi çözümler ve sektörde lider bir yaklaşım sunmaktadır. Güvenilir
+              ürünlerimizle projelerinizi kolaylaştırıyor ve üstün performans sağlıyoruz.
+            </p>
+
+            <div class="row gy-4">
+
+              <div class="col-lg-6">
+                <div class="stats-item d-flex">
+                  <i class="bi bi-emoji-smile flex-shrink-0"></i>
+                  <div>
+                    <span data-purecounter-start="0" data-purecounter-end="1500" data-purecounter-duration="1"
+                      class="purecounter"></span>
+                    <p><strong>Mutlu Müşteri</strong> <span>hizmetlerimizden memnun</span></p>
+                  </div>
+                </div>
+              </div><!-- İstatistik Maddesi Sonu -->
+
+              <div class="col-lg-6">
+                <div class="stats-item d-flex">
+                  <i class="bi bi-journal-richtext flex-shrink-0"></i>
+                  <div>
+                    <span data-purecounter-start="0" data-purecounter-end="800" data-purecounter-duration="1"
+                      class="purecounter"></span>
+                    <p><strong>Tamamlanan Projeler</strong> <span>başarıyla teslim edildi</span></p>
+                  </div>
+                </div>
+              </div><!-- İstatistik Maddesi Sonu -->
+
+              <div class="col-lg-6">
+                <div class="stats-item d-flex">
+                  <i class="bi bi-headset flex-shrink-0"></i>
+                  <div>
+                    <span data-purecounter-start="0" data-purecounter-end="12000" data-purecounter-duration="1"
+                      class="purecounter"></span>
+                    <p><strong>Destek Saatleri</strong> <span>7/24 hizmet sunuyoruz</span></p>
+                  </div>
+                </div>
+              </div><!-- İstatistik Maddesi Sonu -->
+
+              <div class="col-lg-6">
+                <div class="stats-item d-flex">
+                  <i class="bi bi-people flex-shrink-0"></i>
+                  <div>
+                    <span data-purecounter-start="0" data-purecounter-end="50" data-purecounter-duration="1"
+                      class="purecounter"></span>
+                    <p><strong>Uzman Kadro</strong> <span>her projeye değer katıyor</span></p>
+                  </div>
+                </div>
+              </div><!-- İstatistik Maddesi Sonu -->
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /İstatistikler Bölümü -->
+
+
+    <!-- Referanslar Bölümü -->
+    <section id="testimonials" class="testimonials section dark-background">
+
+      <img src="assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="swiper init-swiper">
+          <script type="application/json" class="swiper-config">
+      {
+        "loop": true,
+        "speed": 600,
+        "autoplay": {
+          "delay": 5000
+        },
+        "slidesPerView": "auto",
+        "pagination": {
+          "el": ".swiper-pagination",
+          "type": "bullets",
+          "clickable": true
+        }
+      }
+    </script>
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Ali Yılmaz</h3>
+                <h4>CEO, Yılmaz Makine</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Vinç ihtiyaçlarımızda Aydın Vinç her zaman ilk tercihlerimizden biri oldu. Ürün kalitesi ve
+                    zamanında teslimat konusunda mükemmel bir deneyim yaşadık.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- Referans öğesi sonu -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Ayşe Demir</h3>
+                <h4>Fabrika Müdürü, Demir Çelik A.Ş.</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Fabrika üretim hattımıza uygun özel vinç çözümleri sundular. Projelerimizde hem maliyet hem de
+                    kalite açısından büyük avantaj sağladık.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- Referans öğesi sonu -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3>Mehmet Kaya</h3>
+                <h4>Genel Müdür, Kaya Lojistik</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Depo ve lojistik işlerimizde kullanılan vinçlerimizin verimliliği ve dayanıklılığı, Aydın Vinç
+                    sayesinde önemli ölçüde arttı. Profesyonel hizmet için teşekkür ederiz.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- Referans öğesi sonu -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Fatma Şahin</h3>
+                <h4>Proje Yöneticisi, Şahin İnşaat</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Şantiye projelerimizde kullandığımız vinçlerin her biri Aydın Vinç tarafından temin edildi. Hem
+                    güvenlik hem de performans açısından beklentilerimizin üzerinde bir hizmet aldık.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- Referans öğesi sonu -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                <h3>Osman Aksoy</h3>
+                <h4>Teknik Müdür, Aksoy Endüstri</h4>
+                <div class="stars">
+                  <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
+                    class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                </div>
+                <p>
+                  <i class="bi bi-quote quote-icon-left"></i>
+                  <span>Vinç seçiminde doğru partner olmak önemliydi. Aydın Vinç, uzmanlığıyla her zaman doğru
+                    yönlendirme
+                    yaptı ve işimize değer kattı.</span>
+                  <i class="bi bi-quote quote-icon-right"></i>
+                </p>
+              </div>
+            </div><!-- Referans öğesi sonu -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+
+    </section><!-- /Referanslar Bölümü -->
+
+    <!-- Takım Bölümü -->
+    <section id="team" class="team section">
+
+      <!-- Bölüm Başlığı -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Takım</h2>
+        <p>Gururla Sunuyoruz</p>
+      </div><!-- Bölüm Başlığı Sonu -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Murat Özkan</h4>
+                <span>Genel Müdür</span>
+              </div>
+            </div>
+          </div><!-- Takım Üyesi Sonu -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Fatma Kılıç</h4>
+                <span>Üretim Müdürü</span>
+              </div>
+            </div>
+          </div><!-- Takım Üyesi Sonu -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Ahmet Demir</h4>
+                <span>Ar-Ge Yöneticisi</span>
+              </div>
+            </div>
+          </div><!-- Takım Üyesi Sonu -->
+
+          <div class="col-lg-3 col-md-6 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="400">
+            <div class="team-member">
+              <div class="member-img">
+                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+              <div class="member-info">
+                <h4>Ayşe Şahin</h4>
+                <span>Finans Müdürü</span>
+              </div>
+            </div>
+          </div><!-- Takım Üyesi Sonu -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Takım Bölümü -->
+
+
+    <section id="slider" class="slider section">
+      <div class="container" data-aos="fade-up">
+        <!-- Başlık -->
+        <div class="section-title text-center mb-4">
+          <h2>Yaptığımız İşler</h2>
+          <p>Uzmanlığımızla gerçekleştirdiğimiz projeleri ve çözümlerimizi inceleyin.</p>
+        </div>
+        <div class="owl-carousel owl-theme">
+          <!-- Slider 1 -->
+          <div class="item">
+            <a href="portal.html">
+              <img src="yapiş2.png" class="img-fluid" alt="Portal Vinç">
+              <h5 class="text-center mt-2">Portal Vinç Çözümleri</h5>
+            </a>
+          </div>
+          <!-- Slider 2 -->
+          <div class="item">
+            <a href="mobil.html">
+              <img src="yapiş3.png" class="img-fluid" alt="Mobil Vinç">
+              <h5 class="text-center mt-2">Mobil Vinç Sistemleri</h5>
+            </a>
+          </div>
+          <!-- Slider 3 -->
+          <div class="item">
+            <a href="kule.html">
+              <img src="yapiş4.png" class="img-fluid" alt="Kule Vinç">
+              <h5 class="text-center mt-2">Kule Vinç Hizmetleri</h5>
+            </a>
+          </div>
+          <!-- Slider 4 -->
+          <div class="item">
+            <a href="endustriyel.html">
+              <img src="yapiş5.png" class="img-fluid" alt="Endüstriyel Vinç">
+              <h5 class="text-center mt-2">Endüstriyel Vinç Çözümleri</h5>
+            </a>
+          </div>
+          <!-- Slider 5 -->
+          <div class="item">
+            <a href="ozel.html">
+              <img src="yapiş6.png" class="img-fluid" alt="Özel Tasarım Vinç">
+              <h5 class="text-center mt-2">Özel Tasarım Vinçler</h5>
+            </a>
+          </div>
+          <!-- Slider 6 -->
+          <div class="item">
+            <a href="bakim.html">
+              <img src="yapiş7.png" class="img-fluid" alt="Bakım ve Onarım">
+              <h5 class="text-center mt-2">Bakım ve Onarım</h5>
+            </a>
+          </div>
+          <!-- Slider 7 -->
+          <div class="item">
+            <a href="egitim.html">
+              <img src="yapiş8.png" class="img-fluid" alt="Operatör Eğitimi">
+              <h5 class="text-center mt-2">Operatör Eğitimleri</h5>
+            </a>
+          </div>
+          <!-- Slider 8 -->
+          <div class="item">
+            <a href="destek.html">
+              <img src="yapılaniş.png" class="img-fluid" alt="7/24 Teknik Destek">
+              <h5 class="text-center mt-2">7/24 Teknik Destek</h5>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+
+    <!-- Owl Carousel CSS -->
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+
+    <!-- Owl Carousel JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <script>
+      $(document).ready(function () {
+        $(".owl-carousel").owlCarousel({
+          loop: true,
+          margin: 10,
+          nav: true,
+          autoplay: true,
+          autoplayTimeout: 3000, // 3 saniyede bir döngü
+          autoplayHoverPause: true,
+          responsive: {
+            0: {
+              items: 2 // Mobil cihazlarda 2 resim
+            },
+            600: {
+              items: 4 // Orta ekranlarda 4 resim
+            },
+            1000: {
+              items: 6 // Büyük ekranlarda 6 resim
+            }
+          }
+        });
+      });
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- İletişim Bölümü -->
+    <section id="contact" class="contact section">
+
+      <!-- Bölüm Başlığı -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>İletişim</h2>
+        <p>Bize Ulaşın</p>
+      </div><!-- Bölüm Başlığı Sonu -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="mb-4" data-aos="fade-up" data-aos-delay="200">
+          <iframe style="border:0; width: 100%; height: 270px;"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d48389.78314118045!2d-74.006138!3d40.710059!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a22a3bda30d%3A0xb89d1fe6bc499443!2sDowntown%20Conference%20Center!5e0!3m2!1str!2str!4v1676961268712!5m2!1str!2str"
+            frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div><!-- Google Haritalar Sonu -->
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4">
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+              <i class="bi bi-geo-alt flex-shrink-0"></i>
+              <div>
+                <h3>Adres</h3>
+                <p>A108 Adam Caddesi, New York, NY 535022</p>
+              </div>
+            </div><!-- Bilgi Öğesi Sonu -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+              <i class="bi bi-telephone flex-shrink-0"></i>
+              <div>
+                <h3>Bizi Arayın</h3>
+                <p>+1 5589 55488 55</p>
+              </div>
+            </div><!-- Bilgi Öğesi Sonu -->
+
+            <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="500">
+              <i class="bi bi-envelope flex-shrink-0"></i>
+              <div>
+                <h3>Bize Yazın</h3>
+                <p>info@example.com</p>
+              </div>
+            </div><!-- Bilgi Öğesi Sonu -->
+
+          </div>
+
+          <div class="col-lg-8">
+            <form action="contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+              <div class="row gy-4">
+
+                <div class="col-md-6">
+                  <label for="name" class="form-label">Adınız</label>
+                  <input type="text" id="name" name="name" class="form-control" placeholder="Adınızı Girin" required>
+                </div>
+
+                <div class="col-md-6">
+                  <label for="email" class="form-label">E-posta Adresiniz</label>
+                  <input type="email" id="email" class="form-control" name="email"
+                    placeholder="E-posta Adresinizi Girin" required>
+                </div>
+
+                <div class="col-md-12">
+                  <label for="subject" class="form-label">Konu</label>
+                  <input type="text" id="subject" class="form-control" name="subject" placeholder="Konu Girin" required>
+                </div>
+
+                <div class="col-md-12">
+                  <label for="message" class="form-label">Mesajınız</label>
+                  <textarea id="message" class="form-control" name="message" rows="6" placeholder="Mesajınızı Yazın"
+                    required></textarea>
+                </div>
+
+                <div class="col-md-12 text-center">
+                  <div class="loading" style="display: none;">Yükleniyor...</div>
+                  <div class="error-message text-danger" style="display: none;">Bir hata oluştu. Lütfen tekrar deneyin.
+                  </div>
+                  <div class="sent-message text-success" style="display: none;">Mesajınız gönderildi. Teşekkür ederiz!
+                  </div>
+                  <button type="submit" class="btn btn-primary">Mesaj Gönder</button>
+                </div>
+
+              </div>
+            </form>
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section><!-- /İletişim Bölümü -->
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-4 col-md-6 footer-about">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span class="sitename">GP</span>
+            </a>
+            <div class="footer-contact pt-3">
+              <p>A108 Adam Caddesi</p>
+              <p>New York, NY 535022</p>
+              <p class="mt-3"><strong>Telefon:</strong> <span>+1 5589 55488 55</span></p>
+              <p><strong>E-posta:</strong> <span>info@example.com</span></p>
+            </div>
+            <div class="social-links d-flex mt-4">
+              <a href=""><i class="bi bi-twitter-x"></i></a>
+              <a href=""><i class="bi bi-facebook"></i></a>
+              <a href=""><i class="bi bi-instagram"></i></a>
+              <a href=""><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Faydalı Bağlantılar</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Ana Sayfa</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Hakkımızda</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Hizmetler</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Hizmet Şartları</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Gizlilik Politikası</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-2 col-md-3 footer-links">
+            <h4>Hizmetlerimiz</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Web Tasarım</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Web Geliştirme</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Ürün Yönetimi</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Pazarlama</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#"> Grafik Tasarım</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4 col-md-12 footer-newsletter">
+            <h4>Bültenimiz</h4>
+            <p>Bültenimize abone olun ve ürünlerimiz ve hizmetlerimizle ilgili en son haberleri alın!</p>
+            <form action="forms/newsletter.php" method="post" class="php-email-form">
+              <div class="newsletter-form"><input type="email" name="email"><input type="submit" value="Abone Ol">
+              </div>
+              <div class="loading">Yükleniyor</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Abonelik talebiniz gönderildi. Teşekkürler!</div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="copyright">
+      <div class="container text-center">
+        <p>© <span>Copyright</span> <strong class="px-1 sitename">GP</strong> <span>All Rights Reserved</span></p>
+        <div class="credits">
+          <!-- All the links in the footer should remain intact. -->
+          <!-- You can delete the links only if you've purchased the pro version. -->
+          <!-- Licensing information: https://bootstrapmade.com/license/ -->
+          <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> Distributed by <a
+            href="https://themewagon.com">ThemeWagon</a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
