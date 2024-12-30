@@ -1,27 +1,31 @@
 # Crane Systems Web Project
 
-This project is a promotional website designed for a company specializing in crane manufacturing and related services. The site aims to enhance the company’s digital presence, provide detailed information about products and services, and offer an easy way for users to contact the company.
+This project is a promotional website designed for a company specializing in crane manufacturing and related services. The goal is to enhance the company’s digital presence, provide detailed information about products and services, and facilitate user engagement through a contact form.
 
 ## Live Demo
 You can view the live version of the website here: [Crane Systems Web Project](https://albtky.github.io/Crane_Systems_Web_Project/)
 
 ## Features
-- **Products and Services:** Detailed descriptions of various cranes (mobile, tower, special project, and portal cranes) and services such as custom manufacturing, installation, maintenance, and operator training.
-- **Responsive Design:** Fully optimized for mobile and desktop devices using CSS Media Queries and Bootstrap.
-- **Interactive Elements:** Includes a dynamic slider for showcasing references, an interactive contact form, and filterable portfolio items.
-- **User-Friendly Design:** Modern and minimalist design approach for a seamless user experience.
+- **Detailed Product Information**: Includes descriptions of mobile cranes, tower cranes, special project cranes, and portal cranes.
+- **Services Overview**: Showcases services such as custom crane manufacturing, installation, maintenance, and operator training.
+- **Responsive Design**: Fully optimized for mobile and desktop devices using CSS Media Queries and Bootstrap.
+- **Interactive Components**:
+  - Dynamic slider for showcasing references.
+  - Filterable portfolio section.
+  - Contact form for user inquiries.
+- **Modern UI**: Minimalist and professional design approach for an enhanced user experience.
 
-## Built With
-- **HTML5**: For the structure of the website.
+## Technologies Used
+- **HTML5**: For the website structure.
 - **CSS3**: For styling and responsive design.
-- **JavaScript**: For dynamic functionality such as animations and form validation.
-- **Bootstrap**: For grid system and responsive components.
-- **Owl Carousel**: For creating a dynamic slider.
-- **Isotope.js**: For filtering portfolio items.
+- **JavaScript**: For interactivity such as form validation and animations.
+- **Bootstrap**: For the responsive grid system and components.
+- **Owl Carousel**: For dynamic sliders.
+- **Isotope.js**: For filtering items dynamically.
 - **Chart.js**: For visualizing performance data.
 
-## Project Setup
-### How to Run Locally
+## Installation and Setup
+### Running Locally
 1. Clone the repository:
    ```bash
    git clone https://github.com/albtky/Crane_Systems_Web_Project.git
@@ -30,8 +34,14 @@ You can view the live version of the website here: [Crane Systems Web Project](h
    ```bash
    cd Crane_Systems_Web_Project
    ```
-3. Open `index.html` in your preferred browser.
+3. Open the `index.html` file in your preferred web browser.
 
-### Live Server
-This project is hosted on GitHub Pages. Ensure the `index.html` file is correctly placed in the root directory for the live server to function.
+### Hosting with GitHub Pages
+The project is configured for deployment via GitHub Pages. Ensure the `index.html` file is in the root directory.
 
+## File Structure
+```
+Crane_Systems_Web_Project/
+├── index.html         # Main HTML file
+├── css/               # Stylesheets
+│   └── style.css      # Main stylesheet
