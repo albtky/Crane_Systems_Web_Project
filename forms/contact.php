@@ -1,4 +1,8 @@
 <?php
+header("Access-Control-Allow-Origin: *");
+header("Access-Control-Allow-Methods: POST, GET, OPTIONS");
+header("Access-Control-Allow-Headers: Content-Type, Authorization");
+
 // Alıcı e-posta adresini tanımlayın
 $receiving_email_address = 'alperen.tky06@gmail.com';
 

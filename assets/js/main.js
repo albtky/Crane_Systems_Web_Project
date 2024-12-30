@@ -47,6 +47,7 @@
     });
 
   });
+ 
 
   /**
    * Toggle mobile nav dropdowns
@@ -208,4 +209,37 @@
   window.addEventListener('load', navmenuScrollspy);
   document.addEventListener('scroll', navmenuScrollspy);
 
+  /**
+   * Form Submit Handler
+   */
+  window.addEventListener("load", function() {
+    const contactForm = document.getElementById("contactForm");
+    if (contactForm) {
+      contactForm.addEventListener("submit", function(e) {
+        e.preventDefault(); // Sayfa yenilemeyi önle
+
+        const formData = new FormData(this);
+
+        fetch("http://127.0.0.1:8000/contact.php", {
+          method: "POST",
+          mode: "cors", // CORS politikasına uygun istek
+          body: formData,
+        })
+          .then(response => {
+            if (!response.ok) {
+              throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.text();
+          })
+          .then(data => {
+            console.log("Form başarıyla gönderildi:", data);
+            alert("Mesaj başarıyla gönderildi!");
+          })
+          .catch(error => {
+            console.error("Fetch hatası:", error);
+            alert("Bir hata oluştu. Lütfen tekrar deneyin.");
+          });
+      });
+    }
+  });
 })();
