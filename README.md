@@ -56,15 +56,6 @@ Crane_Systems_Web_Project/
 2. Navigate through the site to explore products and services.
 3. Use the contact form for inquiries or additional information.
 
-## Screenshots
-### Homepage
-![Homepage Screenshot](https://via.placeholder.com/800x400.png?text=Homepage+Screenshot)
-
-### Services Section
-![Services Screenshot](https://via.placeholder.com/800x400.png?text=Services+Screenshot)
-
-### Contact Form
-![Contact Form Screenshot](https://via.placeholder.com/800x400.png?text=Contact+Form+Screenshot)
 
 ## References
 - [Bootstrap](https://getbootstrap.com/)
